@@ -1,5 +1,5 @@
-import 'package:shop_app/modouls/fav_model.dart';
-import 'package:shop_app/modouls/shop_model.dart';
+import 'package:jumla/modouls/fav_model.dart';
+import 'package:jumla/modouls/shop_model.dart';
 
 abstract class ProductStates {}
 

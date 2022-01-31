@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:jumla/componanes/componanets.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/shared/shop_cubit/states.dart';
 import 'package:loading_gifs/loading_gifs.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/shared/shop_cubit/shop_cubit.dart';
-import 'package:shop_app/shared/shop_cubit/states.dart';
+
 
 class FavPage extends StatelessWidget {
   var favController = TextEditingController();

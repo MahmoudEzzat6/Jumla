@@ -1,10 +1,10 @@
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/modouls/search_modouls.dart';
-import 'package:shop_app/shared/cubit/search_states.dart';
-import 'package:shop_app/shared/local/shared_pref.dart';
-import 'package:shop_app/shared/remote/dio_helper.dart';
-import 'package:shop_app/shared/remote/end_points.dart';
+import 'package:jumla/modouls/search_modouls.dart';
+import 'package:jumla/shared/cubit/search_states.dart';
+import 'package:jumla/shared/local/shared_pref.dart';
+import 'package:jumla/shared/remote/dio_helper.dart';
+import 'package:jumla/shared/remote/end_points.dart';
 
 class SearchCubit extends Cubit<SearchStates>{
   SearchCubit() : super(ShopInitialSearch());

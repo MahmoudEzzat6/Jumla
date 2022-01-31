@@ -2,10 +2,11 @@ import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/layouts/shop_search.dart';
-import 'package:shop_app/shared/shop_cubit/shop_cubit.dart';
-import 'package:shop_app/shared/shop_cubit/states.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/componanes/componanets.dart';
+import 'package:jumla/layouts/shop_search.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/shared/shop_cubit/states.dart';
 
 
 class HomeLayout extends StatelessWidget {

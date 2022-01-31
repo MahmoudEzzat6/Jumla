@@ -5,12 +5,12 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/layouts/product_data.dart';
-import 'package:shop_app/modouls/category_model.dart';
-import 'package:shop_app/modouls/home_model.dart';
-import 'package:shop_app/shared/shop_cubit/shop_cubit.dart';
-import 'package:shop_app/shared/shop_cubit/states.dart';
+import 'package:jumla/componanes/componanets.dart';
+import 'package:jumla/layouts/product_data.dart';
+import 'package:jumla/modouls/category_model.dart';
+import 'package:jumla/modouls/home_model.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/shared/shop_cubit/states.dart';
 import 'package:loading_gifs/loading_gifs.dart';
 
 class ProductPage extends StatelessWidget {

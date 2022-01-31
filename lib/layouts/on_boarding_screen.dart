@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/layouts/login_screen.dart';
-import 'package:shop_app/shared/local/shared_pref.dart';
+import 'package:jumla/shared/local/shared_pref.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+
+import 'login_screen.dart';
 
 var boardingController = PageController();
 var isLast = false;

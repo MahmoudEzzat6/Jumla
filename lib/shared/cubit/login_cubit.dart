@@ -2,13 +2,13 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/constant/constant.dart';
-import 'package:shop_app/modouls/shop_model.dart';
-import 'package:shop_app/shared/cubit/states.dart';
-import 'package:shop_app/shared/local/shared_pref.dart';
-import 'package:shop_app/shared/remote/dio_helper.dart';
-import 'package:shop_app/shared/remote/end_points.dart';
-import 'package:shop_app/shared/shop_cubit/states.dart';
+import 'package:jumla/constant/constant.dart';
+import 'package:jumla/modouls/shop_model.dart';
+import 'package:jumla/shared/cubit/states.dart';
+import 'package:jumla/shared/local/shared_pref.dart';
+import 'package:jumla/shared/remote/dio_helper.dart';
+import 'package:jumla/shared/remote/end_points.dart';
+import 'package:jumla/shared/shop_cubit/states.dart';
 
 class LoginCubit extends Cubit<ShopLoginStates>{
   LoginCubit() : super(ShopLoginInitialStates());

@@ -3,11 +3,11 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/modouls/shop_model.dart';
-import 'package:shop_app/shared/cubit/register_states.dart';
-import 'package:shop_app/shared/local/shared_pref.dart';
-import 'package:shop_app/shared/remote/dio_helper.dart';
-import 'package:shop_app/shared/remote/end_points.dart';
+import 'package:jumla/modouls/shop_model.dart';
+import 'package:jumla/shared/cubit/register_states.dart';
+import 'package:jumla/shared/local/shared_pref.dart';
+import 'package:jumla/shared/remote/dio_helper.dart';
+import 'package:jumla/shared/remote/end_points.dart';
 
 class RegisterCubit extends Cubit<ShopRegisterStates>{
   RegisterCubit() : super(ShopRegisterInitialStates());

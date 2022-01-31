@@ -1,16 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:jumla/componanes/componanets.dart';
+import 'package:jumla/modouls/home_model.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/shared/shop_cubit/states.dart';
 import 'package:loading_gifs/loading_gifs.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/modouls/category_model.dart';
-import 'package:shop_app/modouls/get_fav_model.dart';
-import 'package:shop_app/modouls/home_model.dart';
-import 'package:shop_app/modouls/products_details_model.dart';
-import 'package:shop_app/modouls/products_model.dart';
-import 'package:shop_app/modouls/shop_model.dart';
-import 'package:shop_app/shared/shop_cubit/shop_cubit.dart';
-import 'package:shop_app/shared/shop_cubit/states.dart';
 
 class ProductsData extends StatelessWidget {
   @override

@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/constant/constant.dart';
-import 'package:shop_app/layouts/home_layout.dart';
-import 'package:shop_app/shared/cubit/register_cubit.dart';
-import 'package:shop_app/shared/cubit/register_states.dart';
-import 'package:shop_app/shared/local/shared_pref.dart';
-import 'package:shop_app/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/componanes/componanets.dart';
+import 'package:jumla/constant/constant.dart';
+import 'package:jumla/shared/cubit/register_cubit.dart';
+import 'package:jumla/shared/cubit/register_states.dart';
+import 'package:jumla/shared/local/shared_pref.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
+
+import 'home_layout.dart';
+
 
 var mailController = TextEditingController();
 var passwordController = TextEditingController();

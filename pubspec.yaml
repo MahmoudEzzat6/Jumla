@@ -1,5 +1,7 @@
-name: shop_app
-description: A new Flutter project.
+name: jumla
+description: in this App you can see products and their
+  prices, sale and you put your Favorite products, you can
+  search about products which you need
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.

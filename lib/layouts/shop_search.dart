@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/modouls/search_modouls.dart';
-import 'package:shop_app/shared/cubit/search_cubit.dart';
-import 'package:shop_app/shared/cubit/search_states.dart';
-import 'package:shop_app/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/componanes/componanets.dart';
+import 'package:jumla/modouls/search_modouls.dart';
+import 'package:jumla/shared/cubit/search_cubit.dart';
+import 'package:jumla/shared/cubit/search_states.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
 
 class ShopSearch extends StatelessWidget {
 

@@ -1,16 +1,16 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/layouts/home_layout.dart';
-import 'package:shop_app/layouts/on_boarding_screen.dart';
-import 'package:shop_app/layouts/login_screen.dart';
-import 'package:shop_app/shared/cubit/blocObserve.dart';
-import 'package:shop_app/shared/cubit/search_cubit.dart';
-import 'package:shop_app/shared/cubit/states.dart';
-import 'package:shop_app/shared/local/shared_pref.dart';
-import 'package:shop_app/shared/shop_cubit/shop_cubit.dart';
-import 'package:shop_app/shared/shop_cubit/states.dart';
-import 'package:shop_app/style/theme.dart';
+import 'package:jumla/layouts/home_layout.dart';
+import 'package:jumla/layouts/on_boarding_screen.dart';
+import 'package:jumla/layouts/login_screen.dart';
+import 'package:jumla/shared/cubit/blocObserve.dart';
+import 'package:jumla/shared/cubit/search_cubit.dart';
+import 'package:jumla/shared/cubit/states.dart';
+import 'package:jumla/shared/local/shared_pref.dart';
+import 'package:jumla/shared/shop_cubit/shop_cubit.dart';
+import 'package:jumla/shared/shop_cubit/states.dart';
+import 'package:jumla/style/theme.dart';
 
 import 'shared/cubit/login_cubit.dart';
 

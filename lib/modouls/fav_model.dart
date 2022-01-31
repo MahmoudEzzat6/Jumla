@@ -1,4 +1,4 @@
-import 'package:shop_app/shared/remote/dio_helper.dart';
+import 'package:jumla/shared/remote/dio_helper.dart';
 
  class ChangeFavModel{
 

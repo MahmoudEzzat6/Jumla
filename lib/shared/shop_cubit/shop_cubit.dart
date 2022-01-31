@@ -1,21 +1,22 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/componanes/componanets.dart';
-import 'package:shop_app/layouts/category_page.dart';
-import 'package:shop_app/layouts/fav_page.dart';
-import 'package:shop_app/layouts/product_page.dart';
-import 'package:shop_app/layouts/setting_page.dart';
-import 'package:shop_app/modouls/category_model.dart';
-import 'package:shop_app/modouls/fav_model.dart';
-import 'package:shop_app/modouls/get_fav_model.dart';
-import 'package:shop_app/modouls/home_model.dart';
-import 'package:shop_app/modouls/products_details_model.dart';
-import 'package:shop_app/modouls/shop_model.dart';
-import 'package:shop_app/shared/local/shared_pref.dart';
-import 'package:shop_app/shared/remote/dio_helper.dart';
-import 'package:shop_app/shared/remote/end_points.dart';
-import 'package:shop_app/shared/shop_cubit/states.dart';
+import 'package:jumla/componanes/componanets.dart';
+import 'package:jumla/layouts/category_page.dart';
+import 'package:jumla/layouts/fav_page.dart';
+import 'package:jumla/layouts/product_page.dart';
+import 'package:jumla/layouts/setting_page.dart';
+import 'package:jumla/modouls/category_model.dart';
+import 'package:jumla/modouls/fav_model.dart';
+import 'package:jumla/modouls/get_fav_model.dart';
+import 'package:jumla/modouls/home_model.dart';
+import 'package:jumla/modouls/products_details_model.dart';
+import 'package:jumla/modouls/shop_model.dart';
+import 'package:jumla/shared/local/shared_pref.dart';
+import 'package:jumla/shared/remote/dio_helper.dart';
+import 'package:jumla/shared/remote/end_points.dart';
+import 'package:jumla/shared/shop_cubit/states.dart';
+
 
 class ShopCubit extends Cubit<ProductStates> {
   ShopCubit() : super(ShopInitialStates());
