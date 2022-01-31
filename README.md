@@ -1,10 +1,10 @@
-# shop_app
-
-A new Flutter project.
+# Jumla_App
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+in this App you can see products and their
+prices, sale and you put your Favorite products, you can
+search about products which you need
 
 A few resources to get you started if this is your first Flutter project:
 
